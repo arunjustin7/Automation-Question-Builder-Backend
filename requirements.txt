@@ -1,0 +1,14 @@
+Flask
+Flask-CORS
+python-dotenv
+PyPDF2
+openai
+langchain-openai
+langchain-community-vectorstores
+tiktoken
+langchain
+faiss-cpu
+Flask-SocketIO
+Flask-SQLAlchemy
+python-socketio
+SQLAlchemy
