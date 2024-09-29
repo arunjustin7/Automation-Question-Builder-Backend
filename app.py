@@ -201,4 +201,6 @@ def home():
     return "Hello, World! The server is running."
 
 if __name__ == "__main__":
-    socketio.run(app, debug=True,allow_unsafe_werkzeug=True)
+    # socketio.run(app, debug=True,allow_unsafe_werkzeug=True)
+    port = int(os.environ.get('PORT', 10000))
+    socketio.run(app, host='0.0.0.0', port=port)
