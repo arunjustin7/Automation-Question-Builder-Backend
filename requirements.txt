@@ -12,3 +12,7 @@ Flask-SocketIO
 Flask-SQLAlchemy
 gunicorn
 eventlet
+reportlab
+python-docx
+Flask-Mail
+
